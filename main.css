@@ -10,11 +10,11 @@ a:hover, a:active {
 }
 
 body{
-    background: linear-gradient(0deg, #EDE3C9, #FFF) no-repeat;
-    font-family: 'Livvic', sans-serif;
     color: #333;
     cursor: default;
     user-select: none;
+    font-family: 'Livvic', sans-serif;
+    background: linear-gradient(0deg, #EDE3C9, #FFF) no-repeat;
 }
 
 main{  
