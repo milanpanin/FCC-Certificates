@@ -10,11 +10,11 @@ a:hover, a:active {
 }
 
 body{
+    background: linear-gradient(0deg, #EDE3C9, #FFF) no-repeat;
+    font-family: 'Livvic', sans-serif;
     color: #333;
     cursor: default;
     user-select: none;
-    font-family: 'Livvic', sans-serif;
-    background: linear-gradient(0deg, #EDE3C9, #FFF) no-repeat;
 }
 
 main{  
@@ -93,10 +93,9 @@ article section .circle-right{
     width: 200px;
     border-radius: 50%;
     background-color: #EDE3C9;
-    margin: 0 15px 5px 0;
+    margin: 0 10px 5px 0;
     float: right;
     shape-outside: circle();
     object-fit: cover;
     object-position: top;
 }
-
