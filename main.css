@@ -35,8 +35,8 @@ main{
 }
 
 .like i{
-    margin: 50px 0 0 0;
     cursor: pointer;
+    margin: 50px 0 0 0;
 }
 
 article{
