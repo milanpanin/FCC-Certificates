@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Document</title>
+    <title>FCC: Tribute page</title>
 
     <!-- META -->
     <meta charset="UTF-8">
@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="main.css">
 
     <!-- FONTS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
-        integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
 
     <!-- SCRIPT -->
@@ -24,8 +23,8 @@
 </head>
 
 <body>
-    <main>
-
+    <main id="main">
+        <!-- Destkop -->
         <div class="like">
             <i id="heart" class="far fa-heart"></i>
             <p id="likes">0</p>
@@ -34,90 +33,100 @@
         <article>
 
             <header>
-                <h1>My country Serbia</h1>
+                <h1 id="title">My country Serbia</h1>
                 <h3>The soil from which I'm not going</h3>
-                <div class="text-info">
-                    <a href="https://www.linkedin.com/in/milan-panin/">
-                        <img src="https://res.cloudinary.com/dvpigocv1/image/upload/v1567354298/FCC-Tribute/miki.jpg"
-                            alt="Autor: Milan Panin">
-                    </a>
-                    <div class="autor">
-                        <p>Milan Panin</p>
-                        <p>01.09.2019.</p>
+
+                <div class="mobile">
+                    <div class="text-info">
+                        <a href="https://www.linkedin.com/in/milan-panin/">
+                            <img src="https://res.cloudinary.com/dvpigocv1/image/upload/v1567354298/FCC-Tribute/miki.jpg" alt="Autor: Milan Panin">
+                        </a>
+                        <div class="autor">
+                            <p>Milan Panin</p>
+                            <p>01.09.2019.</p>
+                        </div>
+                    </div>
+
+                    <!-- Mobile phone -->
+                    <div class="like_phone">
+                        <i id="heart_phone" class="far fa-heart"></i>
+                        <p id="likes_phone">0</p>
                     </div>
                 </div>
+
             </header>
 
             <section>
-                <img src="https://www.pwc.rs/en/publications/hero/doing-business-guide-and-investing-in-serbia2019.jpg">
-                
-            <!-- CENTER PARAGRAF -->
-                <p style="text-align: center">
-                    <b>Serbia</b>, officially the Republic of Serbia, is a sovereign state located at the
-                    crossroads of Central and Southeastern Europe in the southern part of the Pannonian Plain
-                    and the center of the Balkan Peninsula. It mainly covers the Balkan Peninsula and,
-                    to a lesser extent, the Pannonian Plain. The capital is Belgrade, which is one of the oldest
-                    and largest cities in Southeast Europe. With a population of 1,659,440 in the wider area,
-                    according to the 2011 census, it is the administrative and economic center of the country.
-                    The official language is Serbian and the official currency is Serbian Dinar.
-                </p> <br><br>
+                <div id="img-div">
+                    <img id="image" src="https://www.pwc.rs/en/publications/hero/doing-business-guide-and-investing-in-serbia2019.jpg" alt="Serbia">
 
-                    <h2 style="text-align: center">Important personalities of Serbian history</h2><br><br>
+                    <!-- CENTER PARAGRAF-->
+                    <p id="img-caption" style="text-align: center">
+                        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Serbia" target="_blank"><b>Serbia</b></a> , officially the Republic of Serbia, is a sovereign state located at the
+                        crossroads of Central and Southeastern Europe in the southern part of the Pannonian Plain
+                        and the center of the Balkan Peninsula. It mainly covers the Balkan Peninsula and,
+                        to a lesser extent, the Pannonian Plain. The capital is Belgrade, which is one of the oldest
+                        and largest cities in Southeast Europe. With a population of 1,659,440 in the wider area,
+                        according to the 2011 census, it is the administrative and economic center of the country.
+                        The official language is Serbian and the official currency is Dinar.
+                    </p> <br><br>
+                </div>
 
-            <!-- FIRST PARAGRAF -->
-          
-                <img class="circle-left" 
-                    src="https://res.cloudinary.com/dvpigocv1/image/upload/v1567355595/FCC-Tribute/dule.jpg">
-                <p>
-                    <b>Stefan Uroš IV Dušan Nemanjić</b>, also known as Stefan Dušan or Dušan Silni, 
-                    was the last Serbian king of the Nemanjic dynasty, ruling from 1331 to 1346, 
-                    and then became the first emperor of the Serbian state when he was resurrected on 16 16. 
-                    April 1, 1346 crowned the first Serbian Patriarch Joanikije II. Dušan ruled the newly 
-                    formed Serbian Empire for 9 years - from his coronation in 1346 until his death on 
-                    December 20, 1355. Emperor Dušan is described as an energetic ruler, of a strong character 
-                    and temperament, which is why he is often called "Dušan Silni". In 1349 he brought a very 
-                    important document, called the Dusan Code, and it was written in Serbian. 
-                    Dusan's imperial crown is today in the Cetinje Monastery, Montenegro. 
-                    Emperor Dusan is also known for building the Monastery of the Holy Archangels near Prizren, 
-                    where he was buried until 1927, when his body was transferred to the Church of St. Mark in Belgrade. 
-                    He also completed the endowment of his father, the High Dečani Monastery. 
+                <h2 style="text-align: center">Important personalities of Serbian history</h2><br><br>
+
+                <!-- FIRST PARAGRAF -->
+                <img class="circle-left" src="https://res.cloudinary.com/dvpigocv1/image/upload/v1567355595/FCC-Tribute/dule.jpg">
+                <p id="tribute-info">
+                    <b>Stefan Uroš IV Dušan Nemanjić</b>, also known as Stefan Dušan or Dušan Silni,
+                    was the last Serbian king of the Nemanjic dynasty, ruling from 1331 to 1346,
+                    and then became the first emperor of the Serbian state when he was resurrected on 16 16.
+                    April 1, 1346 crowned the first Serbian Patriarch Joanikije II. Dušan ruled the newly
+                    formed Serbian Empire for 9 years - from his coronation in 1346 until his death on
+                    December 20, 1355. Emperor Dušan is described as an energetic ruler, of a strong character
+                    and temperament, which is why he is often called "Dušan Silni". In 1349 he brought a very
+                    important document, called the Dusan Code, and it was written in Serbian.
+                    Dusan's imperial crown is today in the Cetinje Monastery, Montenegro.
+                    Emperor Dusan is also known for building the Monastery of the Holy Archangels near Prizren,
+                    where he was buried until 1927, when his body was transferred to the Church of St. Mark in Belgrade.
+                    He also completed the endowment of his father, the High Dečani Monastery.
                     Dušan is considered a hero among today's Serbs, and he has great respect in the people.
                 </p> <br><br>
 
-            <!-- SECND PARAGRAF -->
+                <!-- SECND PARAGRAF -->
                 <img class="circle-right" src="https://res.cloudinary.com/dvpigocv1/image/upload/v1567355592/FCC-Tribute/djole.jpg"></img>
                 <p>
-                    <b>Đorđe Petrović</b>, known as <b>Karađorđe</b> and <b>Crni(Black) Đorđe</b>, was the leader of the First Serbian Uprising 
-                    and the founder of the Karadjordjevic Dynasty. He was born on November 16, 1768 in Visevac in the 
+                    <b>Đorđe Petrović</b>, known as <b>Karađorđe</b> and <b>Crni(Black) Đorđe</b>, was the leader of the First Serbian Uprising
+                    and the founder of the Karadjordjevic Dynasty. He was born on November 16, 1768 in Visevac in the
                     Ottoman Empire to Djurdjic, to father Peter and mother Marica. He participated in the Austrian-Turkish
-                    war in the Austrian army as a freighter. After the war, he engaged in cattle breeding and livestock trading. 
-                    After avoiding the Seca of Princes, he was elected leader of the First Serbian Uprising. 
-                    He commanded the rebel army during the Battle of Misar and the siege of Belgrade in 1806. 
-                    After the collapse of the uprising in 1813, he moved to Austria and then to Russia. 
-                    He returned to Serbia in July 1817, but was killed on the orders of Prince Milos Obrenovic, 
+                    war in the Austrian army as a freighter. After the war, he engaged in cattle breeding and livestock trading.
+                    After avoiding the Seca of Princes, he was elected leader of the First Serbian Uprising.
+                    He commanded the rebel army during the Battle of Misar and the siege of Belgrade in 1806.
+                    After the collapse of the uprising in 1813, he moved to Austria and then to Russia.
+                    He returned to Serbia in July 1817, but was killed on the orders of Prince Milos Obrenovic,
                     and his head was sent to the Turkish Sultan.
                 </p> <br><br>
 
-            <!-- THIRD PARAGRAF -->
+                <!-- THIRD PARAGRAF -->
                 <img class="circle-left" src="https://res.cloudinary.com/dvpigocv1/image/upload/v1567355595/FCC-Tribute/nidza.jpg"></img>
                 <p>
-                    <b>Nikola Tesla</b> was one of the most famous Serbian and world inventors and scientists in the field of physics, 
-                    electrical engineering and radio engineering. Tesla's most significant inventions are a polyphase system, 
-                    a rotating magnetic field, an induction motor, a synchronous motor and a Tesla transformer. 
-                    He also discovered one of the ways to generate high-frequency current, made a significant contribution 
-                    to the transmission and modulation of radio signals, and his work in the field of X-rays was also noted. 
-                    Its AC system has made it possible to transmit electricity remotely much more easily and efficiently. 
-                    He was a key man in the construction of the first hydroelectric plant at Niagara Falls. 
-                    He passed away at the age of 87, poor and forgotten. It is the only Serb named after an 
-                    international unit of measure, a unit of measure for magnetic flux density or magnetic field strength - tesla. 
-                    Nikola Tesla is the author of more than 700 patents registered in 25 countries, 
-                    of which 112 are in the field of electrical engineering. <br><br>
-                </p>
+                    <b>Nikola Tesla</b> was one of the most famous Serbian and world inventors and scientists in the field of physics,
+                    electrical engineering and radio engineering. Tesla's most significant inventions are a polyphase system,
+                    a rotating magnetic field, an induction motor, a synchronous motor and a Tesla transformer.
+                    He also discovered one of the ways to generate high-frequency current, made a significant contribution
+                    to the transmission and modulation of radio signals, and his work in the field of X-rays was also noted.
+                    Its AC system has made it possible to transmit electricity remotely much more easily and efficiently.
+                    He was a key man in the construction of the first hydroelectric plant at Niagara Falls.
+                    He passed away at the age of 87, poor and forgotten. It is the only Serb named after an
+                    international unit of measure, a unit of measure for magnetic flux density or magnetic field strength - tesla.
+                    Nikola Tesla is the author of more than 700 patents registered in 25 countries.
+                </p> <br><br>
             </section>
 
         </article>
 
     </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
 </body>
 
 </html>
