@@ -6,7 +6,7 @@ After thinking about whether to start the FCC challenge, I finally got some free
 
 This repository represents my hard work and the success I have achieved over a multi-months adventure on FreeCodeCamp. <br/>
 
-### Responsive Web Design Certificates <br/>
+### Responsive Web Design Certificate <br/>
 
 <img src="https://res.cloudinary.com/dvpigocv1/image/upload/v1590932696/GitHub/rwd.png"/>
 
