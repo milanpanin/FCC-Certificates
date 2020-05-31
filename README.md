@@ -1,4 +1,4 @@
-# FCC Projects / Certificate
+# FCC Projects / Certificates
 
 * FreeCodeCamp projects are organized in branches! <br />
 
