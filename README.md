@@ -5,7 +5,7 @@ After thinking about whether to start the FCC challenge, I finally got some free
 This repository represents my hard work and the success I have achieved over a multi-months adventure on FreeCodeCamp. <br/>
 
 
-Some of the available projects that I created in order to obtain the certificate can be viewed at the following link: https://codepen.io/collection/DboBPW?grid_type=list. <br/>
+Some of the available projects that I created in order to obtain the certificate can be viewed at the following link: https://codepen.io/collection/DboBPW?grid_type=list <br/>
 
 ### Responsive Web Design Certificate <br/>
 
