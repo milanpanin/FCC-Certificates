@@ -9,6 +9,9 @@ Some of the available projects that I created in order to obtain the certificate
 
 ### Responsive Web Design Certificate <br/>
 
-<img src="https://res.cloudinary.com/dvpigocv1/image/upload/v1590932696/GitHub/rwd.png"/>
+<img src="https://res.cloudinary.com/dvpigocv1/image/upload/v1590932696/GitHub/rwd.png"/> <br/><br/>
 
+### JavaScript Algorithms and Data Structures Certificate <br/>
+
+<img src="https://res.cloudinary.com/dvpigocv1/image/upload/v1595110434/GitHub/JS-Sertifikat.png"/>
 
